@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'
+}
+
+body {
+    display: flex;
+    background-color: lightblue;
+    color: black;
+    min-height: 100%;
+    padding: 5px;
+    border: none;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header{
+    position: absolute;
+    top: 3%;
+}
+
+.big-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border: 4px solid #b0c4b1;
+    margin: 10% 0 0 0;
+    border-radius: 20px;
+    position: relative;
+    background-color: #d8e2dc;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    /* border: 1px solid blue; */
+    width: 380px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#current-temp{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #b0c4b1;
+    background-color: #e8e8e4;
+    border-radius: 20px;
+    height: 135px;
+    width: 140px;
+    padding: 10px;
+}
+
+.high-temp{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #b0c4b1;
+    background-color: #e8e8e4;
+    border-radius: 20px;
+    height: 60px;
+    width: 230px;
+}
+
+.low-temp{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    border: 2px solid #b0c4b1;
+    background-color: #e8e8e4;
+    border-radius: 20px;
+    height: 60px;
+    width: 230px;
+}
+
+.forecast{
+    display: flex;
+    position: absolute;
+    top: 59%;
+    left: 0;
+    border: 2px solid #b0c4b1;
+    background-color: #e8e8e4;
+    border-radius: 20px;
+    height: 45px;
+    width: 380px;
+}
+
+.humidity{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #b0c4b1;
+    background-color: #e8e8e4;
+    border-radius: 20px;
+    height: 45px;
+    width: 380px;
+}
+
+#city-label{
+    display: inline flex;
+    height: 40px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+#city-form{
+    display: inline flex;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+#submit-button{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    margin-left: 5px;
+}
+
+#submit-button:hover{
+    background-color: lightpink;
+    color: black;
+}
+
+#currentP{
+    font-size: large;
+    font-weight: bold;
+    color: #b0c4b1;
+    display: block;
+}
+
+.form-div{
+    height: 40px;
+    width: 500px;
+    display: inline flex;
+    justify-content: center;
+}
+
+#lowTempH, 
+#highTempH {
+    padding: 7px;
+    color: #b0c4b1;
+}
+
+#forecastH,
+#humidityH {
+    padding: 10px;
+    color: #b0c4b1;
+    display: inline flex;
+}

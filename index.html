@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./images/weather-checker.png" alt="weather checker logo" width="600px">
+    </header>
+    <div class="big-container">
+        <div class="form-div">
+            <form>
+                <label for="city" id="city-label">City: </label>
+                <input type="text" id="city-form" name="city" placeholder="Enter City Name">
+                <button type="button" id="submit-button">Submit</button>
+            </form>
+        </div>
+        <main class="container">
+            <div id="current-temp">
+                <h4 id="currentP">Current Temp:</h4>
+            </div>
+            <div class="high-temp">
+                <h3 id="highTempH">High Temp:</h3>
+            </div>
+            <div class="low-temp">
+                <h3 id="lowTempH">Low Temp:</h3>
+            </div>
+            <div class="forecast">
+                <h3 id="forecastH">Forecast:   </h3>
+            </div>
+            <div class="humidity">
+                <h3 id="humidityH">Humidity:   </h3>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
